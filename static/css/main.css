@@ -6,7 +6,7 @@ body {
 
 .welcome {
 	color: white;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans";
 	font-size: 1.2em;
 	margin: 0 auto;
 	display: flex;
@@ -44,7 +44,7 @@ body {
 
 
 label {
-	    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	    font-family: "Comic Sans MS", "Comic Sans";
 	    font-size: 20px;
 	    color: #5f9ea0;
 	    display: block;
@@ -62,7 +62,7 @@ input[type="text"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
 
 }
 
@@ -116,7 +116,7 @@ input:focus {
 	width: 200px;
 	height: 50px;
 	text-align: center;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans";
 	font-size: 20px;
 }
 
@@ -124,12 +124,12 @@ input:focus {
 #apply:hover {
 	background-color: sienna;
 	cursor: pointer;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans";
 
 }
 
 .response-message {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans";
     font-size: 18px;
     margin-top: 20px;
 }

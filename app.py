@@ -49,7 +49,7 @@ def send_api_request():
     print("API response text:", response.text)
 
     # Check the response status code and return a response
-    if response.status_code in {200, 201}:
+    if response.status_code in {200, 201, 206}:
         # Check if "outcome" is "Approved" in the response JSON
         response_data = response.json()
         summary = response_data.get('summary', {})

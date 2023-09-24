@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Cowboy Credit</title>
+      <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+   </head>
+   <body>
+
+   	<div class="welcome">
+   		<p class="welcome">Howdy! Apply for Cowboy Credit Today!</p>
+   	</div>
+   	<div class="cowboy-container">
+      <img src="https://drive.google.com/uc?export=view&id=1KyMVEaIZIiF1Oer5bDhXc55rOBzT0jV4">
+    </div>
+      <br>
+      <div class="form-container">
+      <form action="/send_api_request" method="POST">
+         <div class="name-container">
+            <div>
+               <label for="name_first">First Name</label>
+               <input type="text" id="name_first" name="name_first"><br><br>
+            </div>
+            <div>
+               <label for="name_last">Last Name:</label>
+               <input type="text" id="name_last" name="name_last"><br><br>
+            </div>
+         </div>
+         <div class="address-line">
+            <label for="address_line_1">Address:</label>
+            <input type="text" id="address_line_1" name="address_line_1"><br><br>
+         </div>
+         <div class="address-line">
+            <label for="address_line_2">Apartment, suite, etc:</label>
+            <input type="text" id="address_line_2" name="address_line_2"><br><br>
+         </div>
+         <div class="city-state">
+         <div>
+            <label for="address_city">City:</label>
+            <input type="text" id="address_city" name="address_city"><br><br>
+         </div>
+         <div>
+            <label for="address_state">State:</label>
+            <input type="text" id="address_state" name="address_state"><br><br>
+            <div>
+            </div>
+            <div class="zip-country">
+               <div>
+                  <label for="address_postal_code">Zip:</label>
+                  <input type="text" id="address_postal_code" name="address_postal_code"><br><br>
+               </div>
+               <div>
+                  <label for="address_country_code">Country:</label>
+                  <input type="text" id="address_country_code" name="address_country_code" value="US" readonly><br><br>
+               </div>
+            </div>
+            <div class="ssn">
+               <label for="document_ssn">SSN:</label>
+               <input type="text" id="document_ssn" name="document_ssn" maxlength="9"><br><br>
+            </div>
+            <div class="email">
+               <label for="email_address">Email:</label>
+               <input type="text" id="email_address" name="email_address"><br><br>
+            </div>
+            <div class="dob">
+               <label for="birth_date">Birth Date (YYYY-MM-DD):</label>
+               <input type="text" id="birth_date" name="birth_date"><br><br>
+               <br>
+               <br>
+            </div>
+            <div class="apply-container">
+            	<input type="submit" value="APPLY" id="apply">
+            </div>
+      </form>
+      </div>
+   </body>
+</html>

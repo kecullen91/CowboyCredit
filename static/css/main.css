@@ -1,141 +1,105 @@
 body {
-	background-color: burlywood;
-
-
+     background-color: burlywood;
 }
-
-@font-face {
-  font-family: comic-sans;
-  src: url( {{ url_for('static', filename='ComicSans.ttf') }} ;
+ .welcome {
+     color: white;
+     font-family: "Comic Sans MS", "Comic Sans";
+     font-size: 1.2em;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 20px;
 }
-
-.welcome {
-	color: white;
-	font-family: "Comic Sans MS", "Comic Sans";
-	font-size: 1.2em;
-	margin: 0 auto;
-	display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 20px;
+ .cowboy-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 15px;
 }
-
-.cowboy-container {
-	display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 15px;
+ .cowboy-container img {
+     max-width: 250px;
+     max-height: 250px;
+     height: auto;
+     width: auto;
 }
-
-.cowboy-container img {
-	max-width: 250px; 
-    max-height: 250px; 
-    height: auto; 
-    width: auto; 
-
+ .form-container {
+     max-width: 450px;
+     margin: 0 auto;
+     background-color: #fff;
+     padding: 20px;
+     border: 1px solid #ccc;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     background-color: wheat;
 }
-
-.form-container {
-    max-width: 450px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    background-color: wheat;
+ label {
+     font-family: "Comic Sans MS", "Comic Sans";
+     font-size: 20px;
+     color: #5f9ea0;
+     display: block;
+     font-weight: bold;
+     margin-bottom: 5px;
 }
-
-
-
-label {
-	    font-family: "Comic Sans MS", "Comic Sans";
-	    font-size: 20px;
-	    color: #5f9ea0;
-	    display: block;
-    	font-weight: bold;
-    	margin-bottom: 5px;
-
-    }
-
-
-
-
-input[type="text"] {
-    width: 95%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-family: "Comic Sans MS", "Comic Sans";
-
+ input[type="text"] {
+     width: 95%;
+     padding: 8px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+     font-family: "Comic Sans MS", "Comic Sans";
 }
-
-
-input:focus {
-	border: solid 5px #5f9ea0;
-	outline: none;
+ input:focus {
+     border: solid 5px #5f9ea0;
+     outline: none;
 }
-
-.name-container {
-    display: flex;
-    justify-content: space-between;
-    width: 97%;
+ .name-container {
+     display: flex;
+     justify-content: space-between;
+     width: 97%;
 }
-
-.address-line{
-    margin-bottom: 10px;
+ .address-line{
+     margin-bottom: 10px;
 }
-
-.city-state{
-    justify-content: space-between;
+ .city-state{
+     justify-content: space-between;
 }
-
-.zip-country{
-	display: flex;
-    justify-content: space-between;
-    width: 97%;
+ .zip-country{
+     display: flex;
+     justify-content: space-between;
+     width: 97%;
 }
-
-.ssn {
-    margin-bottom: 10px;
+ .ssn {
+     margin-bottom: 10px;
 }
-
-.email {
-    margin-bottom: 10px;
+ .email {
+     margin-bottom: 10px;
 }
-
-.dob {
-    margin-bottom: 5px;
+ .dob {
+     margin-bottom: 5px;
 }
-
-.apply-container {
-	display: flex;
-    justify-content: center; 
-    align-items: center; 
+ .apply-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
-
-#apply{
-	background-color: chocolate;
-	color: white;
-	width: 200px;
-	height: 50px;
-	text-align: center;
-	font-family: "Comic Sans MS", "Comic Sans";
-	font-size: 20px;
+ #apply{
+     background-color: chocolate;
+     color: white;
+     width: 200px;
+     height: 50px;
+     text-align: center;
+     font-family: "Comic Sans MS", "Comic Sans";
+     font-size: 20px;
 }
-
-
-#apply:hover {
-	background-color: sienna;
-	cursor: pointer;
-	font-family: "Comic Sans MS", "Comic Sans";
-
+ #apply:hover {
+     background-color: sienna;
+     cursor: pointer;
+     font-family: "Comic Sans MS", "Comic Sans";
 }
-
-.response-message {
-	font-family: "Comic Sans MS", "Comic Sans";
-    font-size: 18px;
-    margin-top: 20px;
+ .response-message {
+     font-family: "Comic Sans MS", "Comic Sans";
+     font-size: 18px;
+     margin-top: 20px;
 }
-
+ 
